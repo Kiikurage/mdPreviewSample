@@ -1,0 +1,125 @@
+h1, h2, h3, h4, h5, h6, p, blockquote {
+    margin: 0;
+    padding: 0;
+}
+.markdown-preview {
+    display: block;
+    padding: 40px 40px;
+    background: #fff;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 145%;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 1);
+    box-sizing: border-box;
+}
+.markdown-preview h1,
+.markdown-preview h2,
+.markdown-preview h3,
+.markdown-preview h4,
+.markdown-preview h5,
+.markdown-preview h6 {
+    line-height: 100%;
+    font-weight: 100;
+    margin: 1.5em 0 0.8em;
+}
+.markdown-preview h1 {
+    font-size: 4em;
+    line-height: 120%;
+    margin-bottom: 2em;
+}
+.markdown-preview h2 {
+    color: rgba(0, 136, 204, 1);
+    font-size: 2.2em;
+    border: none;
+}
+.markdown-preview h3 {
+    font-size: 1.5em;
+}
+.markdown-preview h4,
+.markdown-preview h5,
+.markdown-preview h6 {
+    font-size: 1.2em;
+}
+.markdown-preview a,
+.markdown-preview a:hover {
+    position: relative;
+    display: inline;
+    color: rgba(0, 136, 204, 1);
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    padding: inherit;
+    margin: inherit;
+    box-shadow: none;
+    text-shadow: none;
+}
+.markdown-preview a img {
+    border: none;
+}
+.markdown-preview ul, ol {
+    list-style-image: none;
+    list-style-type: none;
+}
+.markdown-preview p {
+    margin-bottom: 9px;
+}
+.markdown-preview table {
+    margin: 10px 0 15px 0;
+    border-collapse: collapse;
+}
+.markdown-preview td, th {
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+}
+.markdown-preview th {
+    padding: 5px 10px;
+}
+.markdown-preview hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+.markdown-preview blockquote {
+    padding: 15px 15px;
+    margin-bottom: 18px;
+    font-family: georgia, serif;
+    border-left: 5px solid rgba(233, 233, 233, 1);
+    background-color: rgba(249, 249, 249, 1);
+}
+.markdown-preview blockquote p {
+    margin-bottom: 0;
+}
+.markdown-preview code,
+.markdown-preview pre {
+    font-family: Menlo, monospace;
+    font-size: .9em;
+    line-height: 1.6em;
+    word-wrap: break-word;
+}
+.markdown-preview code {
+    border: none;
+    background: inherit;
+    color: rgba(128, 128, 128, 1);
+}
+.markdown-preview pre {
+    display: block;
+    margin: 1em 0;
+    padding: 1em 2em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-left: 5px solid rgba(233, 233, 233, 1);
+}
+.markdown-preview pre code {
+    padding: 0;
+    margin: 0;
+    background: inherit;
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    line-height: 1.6em;
+    font-family: Menlo, monospace;
+}
+.markdown-preview * {
+    -webkit-print-color-adjust: exact;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
